@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8000', // Use environment variable if available
+    baseURL: import.meta.env.VITE_API_URL || 'https://gateway-2a4x.onrender.com', // FastAPI Gateway
     headers: {
         'Content-Type': 'application/json',
     },
