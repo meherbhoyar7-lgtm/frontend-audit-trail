@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://gateway-2a4x.onrender.com', // FastAPI Gateway
+    baseURL: 'http://localhost:8000', // FastAPI Gateway (Local)
     headers: {
         'Content-Type': 'application/json',
     },
